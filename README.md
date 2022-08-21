@@ -3,7 +3,7 @@
 **What does it do?**
 Boiba is an app similar to dating apps, but intended solely to meet new friends in college. This was completed as a final project for CS 296, and this repo contains the only the backend portion, which decides which profiles to recommend to the user. 
 
-**How does it work**
+**How does it work?**
 The recommendation algorithm uses a snowflake database which contains fake data designed to mimic the actual patterns found in student surveys. Our hope is that the data is realistic enough to give us a good replica of the real data without having to deal with the confidentiality issues of using real data. The final product uses a decision tree to pick a compatibility score from 1-10 based on the input profile and the profile of the user being recommended to. We also experiemented with using a neural net to do the same thing. After extensive tuning and analysis, we determined the decision tree worked better due to it's accuracy and transparency.
 
 **Project Goals, Skills, and Tools**
