@@ -1,4 +1,4 @@
-# # Boiba: Tinder for Friends
+# Boiba: Tinder for Friends
 
 **What does it do?**
 Boiba is an app similar to dating apps, but intended solely to meet new friends in college. This was completed as a final project for CS 296, and this repo contains the only the backend portion, which decides which profiles to recommend to the user. 
